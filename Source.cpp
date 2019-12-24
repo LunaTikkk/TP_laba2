@@ -24,7 +24,7 @@ int main(int argc, char* argv[]) {
 		if (c == EOF)
 			break;
 
-		if (c == '\n')
+		if (c == '\n' && flag == false)
 			cout << c;
 
 		if (c == '\"' && flag == false)
